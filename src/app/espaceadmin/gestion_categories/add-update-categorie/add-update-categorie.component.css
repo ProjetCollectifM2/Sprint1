@@ -1,0 +1,25 @@
+#formcat{
+   
+    margin-left: 480px;
+    margin-top: 210px;
+    background-color: aliceblue;
+    border-radius: 15px;
+    opacity: 1;
+
+}
+
+
+
+#b1{
+position: relative;
+left: 500px;
+bottom: 10px;    
+}
+
+
+#b2{
+    position: relative;
+    left: 200px;
+    bottom: 10px; 
+
+}

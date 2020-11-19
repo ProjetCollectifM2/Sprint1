@@ -1,0 +1,33 @@
+{
+    "Button_nav":
+        {"face_button":"Setting",
+        "login":"Login",
+        "logout":"Logout"
+    },
+
+    
+    "Button_Act":
+
+    {  "del":"Delete",
+       "edit":"Edit"
+    },
+
+   "ToastMassega":{
+
+
+           "del":"are you sure ",
+           "delconf":"you want to delete :{{nom}}",
+           "succ":"successful!",
+           "oper1": "It's Update",
+           "confDelete":"Yes,delete!",
+           "close":"Close",
+           "Inscr": "Registred with : ",
+           "Auth": "Authentification  "
+             }
+            
+
+
+}
+
+   
+    

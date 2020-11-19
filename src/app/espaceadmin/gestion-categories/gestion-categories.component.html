@@ -1,0 +1,25 @@
+
+<button id="but1" class = "btn btn-primary" routerLink="/add-categories"> ajouter une catégorie </button>
+
+
+<table class = "table table-striped table-bordered"  id="tabcat">
+    <thead >
+    <tr >
+    <th scope = "col"> Nom Catégorie </th >
+    <th scope = "col"> lien image </th >
+        <th scope = "col"> Actions  </th >
+    </tr >
+    </thead >
+    <tbody >
+    <tr *ngFor="let cat of categories;let i=index;">
+    <td >{{cat.Nom}} </td >
+    <td ><a href={{cat.lien}}> Link {{i+1}}</a>  </td >
+    <td >
+    <button type = "button" class = "btn btn-danger" (click)="delete(cat.id,cat.Nom)" > delete </button>
+    <button type = "button" class = "btn btn-primary" [routerLink] = "'/add-categories'" [queryParams]="{id:cat.id,nom:cat.Nom,lien:cat.lien}"> Editer</button> 
+    </td >
+
+    </tr >
+    
+    </tbody >
+    </table >

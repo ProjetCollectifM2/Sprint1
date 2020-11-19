@@ -1,0 +1,32 @@
+<div class = "pt-3 pb-2 mb-3 border-bottom" >
+    <h1 class = "h2" > </h1>
+    </div >
+    
+    <form #addForm="ngForm" (ngSubmit)="save()">
+    
+    <div class = "row" id="formcat">
+    <div class = "col-lg-5 col-md-12 col-sm-12">
+    <div class = "row" >
+
+    <div class = "col-md-12 mb-3" >
+     <h4><b>Ajout un catégorie</b> </h4><br>
+    <label >Nom de categories  </label >
+        <input type = "text" name = "firstName" class = "form-control" required [(ngModel)]="categorie.Nom">
+        </div>
+
+
+    <div class = "col-md-12 mb-3" >
+    <label > Lien </label >
+    <input type = "text" name = "lastName" class = "form-control" style="width: 700px;" [(ngModel)]="categorie.lien">
+    </div >
+
+  
+
+    </div >
+    
+     <button type = "button" class = "btn btn-secondary" id="b1"> Annuler </button >
+     <button type = "submit" class = "btn btn-success" id="b2">Valider </button >
+    
+    </div >
+    </div >
+    </form >
